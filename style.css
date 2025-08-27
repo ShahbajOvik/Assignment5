@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4fdf5;
+}
+
+.header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #007f4e;
+}
+
+.header .logo img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.header .logo h2 {
+    color: #007f4e;
+}
+
+.header .icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header .icons .icon-box {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #41ff6a3f;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header .icons .coins {
+    background: #41ff6a3f;
+}
+
+.header .icons img {
+    width: 18px;
+    height: 18px;
+}
+
+.header .copy-btn {
+    background: #00A63E;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
