@@ -271,13 +271,13 @@ body {
 }
 
 .clear-btn {
-    background: #ff4444;
+    background: #00A63E;
     color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-weight: bolder;
     border: none;
-    padding: 6px 10px;
-    border-radius: 5px;
     cursor: pointer;
-    font-size: 12px;
 }
 
 @media(max-width: 768px) {
