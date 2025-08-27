@@ -26,7 +26,7 @@ body {
 }
 
 .header .logo img {
-    width: 35px;
+    width: 55px;
     margin-right: 10px;
 }
 
@@ -71,4 +71,37 @@ body {
     display: flex;
     align-items: center;
     gap: 6px;
+}
+
+.banner {
+    background: #022e08;
+    background: linear-gradient(90deg, rgba(2, 46, 8, 1) 0%, rgba(14, 115, 54, 1) 49%, rgba(2, 46, 8, 1) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 700px;
+}
+
+.banner-logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.banner h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.banner p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
 }
