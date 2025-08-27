@@ -237,8 +237,6 @@ body {
     transition: color 0.3s;
 }
 
-
-/* History */
 .history {
     flex: 1;
     background: white;
@@ -266,8 +264,35 @@ body {
 
 .history li {
     font-size: 14px;
-    border-bottom: 1px solid #eee;
-    padding: 8px 0;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.history-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+.history-left h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.history-left p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.history-time {
+    font-size: 13px;
+    color: #999;
+    white-space: nowrap;
 }
 
 .clear-btn {
@@ -281,7 +306,7 @@ body {
 }
 
 @media(max-width: 768px) {
-    .header .logo h2 {
+    .header .logo h3 {
         display: none;
     }
 
