@@ -24,3 +24,8 @@ document.getElementById('bap').addEventListener('click', () => {
 if you click beta then it automatically show up bap clicked.
 
 # What is Event Delegation in JavaScript? Why is it useful?
+Event Delegation is a way to handle child, if i use event Delegation in parent i can handle its child, no need to use separate event listener in child.
+ It is useful because its boost performance and if new child added we can handle it too.
+
+# What is the difference between preventDefault() and stopPropagation() methods?
+preventDefault(),prevent browser default behave, stopPropagation() don't prevent browser default behave. 
